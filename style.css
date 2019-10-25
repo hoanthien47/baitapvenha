@@ -1,0 +1,108 @@
+.box4{
+	margin: 0 auto;
+	width: 85%;
+	height: 600px;
+	/*background-color: cyan;*/
+}
+.box4 .title{
+	margin: 0 auto;
+	width: 60%;
+	height: 50px;
+	/*background-color: red;*/
+}
+.title h4{
+	padding: 1.5rem 0;
+	text-align: center;
+	font-size: 25px;
+	color: #DA06F9;
+}
+.box4 .content{
+	width: 85%;
+	height: 340px;
+	margin: 0 auto;
+	padding: 0px;
+	/*background-color:red;*/
+}
+.content ul {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	list-style-type: none;
+}
+.content ul li{
+	width: 19%;
+	height: 100%;
+	background-image: linear-gradient(-80deg, #A708FA, #F80BDF);
+	float: left;
+	margin-left: 35px;
+	display: block;
+	/*border: 0.2rem double white ;*/
+	
+}
+.content ul li a{
+	text-decoration: none;
+}
+.content ul li a h3{
+	color: white;
+	margin-left: 5px;
+	/*margin-top: 10px;*/
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.content ul li a img{
+	width: 100%;
+	height: 70%;
+}
+.content ul li a p{
+	color: white;
+	margin-top: -5px;
+	float: left;
+	font-size: 15px;
+	margin-left: 5px;
+}
+.box4 .menu{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.box4 .menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+	height: 100%;
+	width: 100%;
+}
+.box4 .menu ul li{
+	float: left;
+	width: 17%;
+	height: 50px;
+	display: block;
+	margin: 0px;
+	border-bottom: 2px solid gray;
+}
+.box4 .menu ul li a{
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #8D0EF9;
+	text-align: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 1rem;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px;
+
+}
+.box4 .menu ul li.active a{
+	color: yellow;
+}
+.box4 .menu ul li:hover a{
+	border-bottom: 3px solid #8D0EF9;
+}
