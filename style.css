@@ -106,3 +106,13 @@
 .box4 .menu ul li:hover a{
 	border-bottom: 3px solid #8D0EF9;
 }
+.box4 .last{
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+}
+.box4 .last a{
+	text-align: center;
+	margin-left: 45%;
+	margin-top: 50px;
+}
