@@ -1,3 +1,285 @@
+.box2{
+	width: 85%;
+	height: 500px;
+	background:white ;
+	margin: 0 auto;
+}
+.box2 .khung{
+	width: 80%;
+	height: 90%;
+	/*background: pink;*/
+	margin: 0 auto;
+}
+.box2 .bxx1{
+	width: 70%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+}
+.box2 .bxx2{
+	width: 30%;
+	height: 100%;
+	background: linear-gradient(100deg, #CD1556, #540C87, #260E6C);
+	float: left;
+}
+.bxx1 .menu{
+	width: 100%;
+	height: 15%;
+	/*background: yellow;*/
+}
+.bxx1 .line{
+	width: 100%;
+	height: 5%;
+	/*background: gray;*/
+}
+.bxx1 .content{
+	width: 100%;
+	height: 65%;
+	/*background: pink;*/
+}
+.bxx1 .icon{
+	width: 100%;
+	height: 15%;
+	/*background: yellow;*/
+}
+.menu ul{
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu .logo{
+	width: 25%;
+	float: left;
+	height: 100%;
+	background: linear-gradient(100deg, #CD1556, #540C87, #260E6C);
+}
+.menu .khungmenu{
+	width: 75%;
+	float: left;
+	height: 100%;
+	/*background: pink;*/
+}
+.khungmenu ul{
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.khungmenu ul li{
+	float: left;
+	width: 20%;
+	display: block;
+	/*background: gray;*/
+	height: 100%;
+}
+.khungmenu ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #CFCBCB;
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	font-weight: bold;
+	color: black;
+}
+.khungmenu ul li:hover a{
+	color: red;
+	background: gray;
+}
+.logo h3{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.content .content1{
+	width: 31%;
+	height: 100%;
+	/*background: #CFCBCB;*/
+	float: left;
+	margin-right: 1rem;
+}
+.content1 .cont1{
+	width: 100%;
+	height: 25%;
+	background: #CD1556;
+	float: left;
+	
+}
+.cont1 p{
+	margin-left: 0.8rem ;
+	color: white;
+}
+.content1 .cont2{
+	width: 100%;
+	height: 50%;
+	background: #CFCBCB;
+	float: left;
+}
+.cont2 p{
+	margin-left: 0.8rem ;
+}
+.content1 .cont3{
+	width: 100%;
+	height: 25%;
+	background: #CFCBCB;
+	float: left;
+	
+}
+.cont3 a.lienket{
+	display: block;
+	width: 45%;
+	padding: 0.4rem 0;
+	background: #260E6C;
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+	margin-left: 3.5rem;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-top: 1.5rem;
+	color: white;
+}
+.cont3 a.lienket:hover{
+	background: gray;
+}
+.content1 .diff{
+	width: 100%;
+	height: 25%;
+	background: #260E6C ;
+	float: left;
+	
+}
+.diff p{
+	margin-left: 0.8rem ;
+	color: white;
+}
+.content1 .diff1{
+	width: 100%;
+	height: 25%;
+	background: #CFCBCB;
+	float: left;
+}
+.diff1 a.lienket{
+	display: block;
+	width: 45%;
+	padding: 0.4rem 0;
+	background:#CD1556 ;
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+	margin-left: 3.5rem;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-top: 1.5rem;
+	color: white;
+}
+.diff1 a.lienket:hover{
+	background: gray;
+}
+.bxx1 img{
+	width: 50px;
+	height: 50px;
+	margin-left: 20rem;
+	margin-top: 1.5rem;
+}
+.bxx2 .tieude{
+	width: 100%;
+	height: 15%;
+	/*background: red;*/
+	float: left;
+}
+.bxx2 .line1{
+	width: 100%;
+	height: 2px;
+	background: #CFCBCB;
+	float: left;
+}
+.bxx2 .ima{
+	width: 100%;
+	height: 30%;
+	/*background: green;*/
+	float: left;
+}
+.bxx2 .name{
+	width: 100%;
+	height: 40%;
+	/*background: red;*/
+	float: left;
+	
+}
+.bxx2 .link{
+	width: 100%;
+	height: 14.5%;
+	/*background: pink;*/
+	float: left;
+}
+.bxx2 .tieude h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+.ima .hinh{
+	width: 30%;
+	height: 100%;
+	/*background: orange;*/
+	border-radius:40%;
+	margin: 0 auto;
+}
+.ima .hinh img{
+	width: 100%;
+	height: 100%;
+	border-radius:40%;
+}
+.name .tentieude{
+	width: 100%;
+	height: 20%;
+	/*background: pink;*/
+	float: left;
+}
+.tentieude h4{
+	text-align: center;
+	display: block;
+	color: white;
+}
+.name .noidung{
+	width: 100%;
+	height: 20%;
+	/*background: pink;*/
+	float: left;
+}
+.noidung p{
+	text-align: center;
+	display: block;
+	color: white;
+}
+.link a.lienket1{
+	display: block;
+	width: 45%;
+	padding: 0.4rem 0;
+	background: #260E6C;
+	text-align: center;
+	margin-right: 10px;
+	float: left;
+	margin-left: 5rem;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-top: 1.5rem;
+	color: white;
+}
+.link a.lienket1:hover{
+	background: gray;
+}
+
+
+
+
 .box4{
 	margin: 0 auto;
 	width: 85%;
