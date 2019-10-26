@@ -770,3 +770,127 @@
 	color: white;
 	font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	width: 85%;
+	height: 450px;
+	margin: 0 auto;
+	background: url(ime/bg.jpg);
+}
+.bg .title{
+	padding-top: 35px;
+	width: 34%;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+.title h1.chunhat{
+	float: left;
+	
+	color: #fff;
+}
+.title h1.chudam{
+	float: left;
+	
+	color: #fff;
+}
+.bg .info1{
+	width: 70%;
+	height: 80px;
+
+	margin: 0 auto;
+	border-top:1px solid #783979;
+}
+.info1 .lich{
+	float: left;
+	width: 18%;
+	height: 60px;
+
+}
+.lich {
+	padding-top: 20px;
+}
+.info1 .hinhthunho{
+	margin-top: 16px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.info1 .text{
+	margin-left: 5px;
+	margin-top: 16px;
+	float: left;
+	width: 40%;
+	height: 47px;
+
+}
+.info1 .rate{
+	margin-top: 16px;
+	float: left;
+	width: 18%;
+	height: 47px;
+
+}
+.info1 .buy{
+	padding-top: 0.2rem;
+	margin-top: 1.5rem;
+	float: right;
+	width: 16%;
+	height: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+.info1 .buy:hover{
+	opacity: 0.8;
+}
+p {
+	font-size: 1.3rem;
+}
+.buy a{
+	text-decoration: none;
+}
+.buy a p{
+	color: black;
+}
+
+.cong{
+	margin: 0 auto;
+	width: 1%;
+	height: 10px;
+}
+.cong p{
+	color: #fff;
+}
