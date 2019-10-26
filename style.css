@@ -1,4 +1,5 @@
-.box2{
+ /* huyền trang làm*/
+ .box2{
 	width: 85%;
 	height: 500px;
 	background:white ;
@@ -264,7 +265,7 @@
 
 
 
-
+/*tuyên làm*/
 .box4{
 	margin: 0 auto;
 	width: 85%;
@@ -378,3 +379,104 @@
 	margin-left: 45%;
 	margin-top: 50px;
 }
+
+
+/* sang làm*/
+.khung{
+	height: 500px;
+	width: 85%;
+	margin: 0 auto;
+	background: rgb(220,220,220);
+
+}
+.title{
+	height: 80px;
+	width: 100%;
+}
+.title p{
+	margin-left: 40%;
+	padding-top: 30px;
+	font-size: 35px;
+
+}
+.khung2{
+	height: 280px;
+	width: 100%;
+}
+.khung3{
+	height: 140px;
+	width: 100%;
+	background: #ee264e;
+	padding-top: 1px;
+	padding-bottom: 5px;
+}
+.khung2 .box1{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.hinhthang{
+	width: 92px;
+    height: 94px;
+	background: rgb(15,24,71);
+	background: linear-gradient(90deg, rgba(15,24,71,1) 0%, rgba(247,61,98,1) 100%);
+/*Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+ /*Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 170px; 
+    padding-top: 0.1px; 
+}
+.hinhthang .hinhthang1{
+	width: 70px;
+    height: 70px;
+    background: white;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 11px; ;
+    padding-top: 0.1px;
+}
+.stt{
+	height: 30px;
+	width: 182px;
+    -webkit-transform: rotate(45deg);
+  }
+.stt p{
+  	font-size: 55px;
+  }
+.noidung p{
+  	width: 70%;
+  	height: 50px;
+  	font-size: 23px;
+  	margin-left: 30px;
+  }
+.khung3 .noidung2{
+	width: 50%;
+	height: 40%;
+}
+.noidung2 p {
+	color: white;
+	font-size: 35px;
+	margin-left: 25%;
+	/*padding-top: -10px;*/
+}
+.noidung3{
+	width: 50%;
+	height: 20%;
+}
+.noidung3 p{
+	color: white;
+	font-size: 12px;
+	margin-left: 50%;
+} 
