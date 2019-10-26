@@ -1,0 +1,289 @@
+/*Code của huyền*/
+.khungngoai{
+	width: 85%;
+	height: 500px;
+	background: #191c69;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.khungngoai .khung1{
+	/*float: left;*/
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+
+
+
+
+
+
+
+.khungngoai .khung1 .hop1{
+	float: left;
+	width: 25%;
+	height: 80%;
+	/*background: green;*/
+	margin-right: 2.5rem;
+	margin-left: 5rem;
+	margin-top: 0.5rem;
+}	
+.khungngoai .khung1 .hop1 .phone {
+	width: 50%;
+	height: 30px;
+	/*background: white;*/
+	margin-left: 50%;
+	padding-top: 10px; 
+}
+.khungngoai .khung1 .hop1 .phone p{
+	color: purple;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+.khungngoai .khung1 .hop1 .phone1 {
+	width: 80%;
+	height: 30px;
+	/*background: white;*/
+	margin-left: 20%;
+}
+.khungngoai .khung1 .hop1 .phone1 p{
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.khungngoai .khung1 .hop2{
+	float: left;
+	width: 25%;
+	height: 80%;
+	/*background: yellow;*/
+	margin-right: 2.5rem;
+	margin-top: 0.5rem;
+}
+.khungngoai .khung1 .hop2 .anh{
+	float: left;
+	margin-top: 2rem;
+	width: 50px;
+	height: 50px;
+	margin-left: 8rem;
+	/*background: pink;*/
+}
+.khungngoai .khung1 .hop2 .anh img{
+	width: 50px;
+	height: 50px;
+}
+.khungngoai .khung1 .hop2 .collabid{
+	float: right;
+	width: 101px;
+	height: 50px;
+	margin-top: 0.2rem;
+	margin-right: 4rem;
+}
+.khungngoai .khung1 .hop2 .collabid p{
+	color: purple;
+	text-align: justify;
+	font-size: 35px;
+	font-family: Helvetica, Arial, sans-serif;
+	 background: -webkit-linear-gradient(#eee, purple);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.khungngoai .khung1 .hop3{
+	float: left;
+	width: 25%;
+	height: 80%;
+	/*background: white;*/
+	margin-right: 2.5rem;
+	margin-top: 0.5rem;
+}
+.khungngoai .khung1 .hop3 .email {
+	width: 50%;
+	height: 30px;
+	/*background: white;*/
+	padding-top: 10px; 
+}
+.khungngoai .khung1 .hop3 .email p{
+	color: purple;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+.khungngoai .khung1 .hop3 .email1 {
+	width: 80%;
+	height: 30px;
+	/*background: white;*/
+}
+.khungngoai .khung1 .hop3 .email1 p{
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.khungngoai .khung2{
+	width: 70%;
+	height: 60px;
+	margin-left: 16%;
+	/*background: pink;*/
+	margin-bottom: 2rem;
+}
+.khungngoai .khung2 p{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.khungngoai .khung3{
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+
+.menu{
+	/*width: 60%;*/
+	height: 60px;
+	/*background: #34495e;*/
+	margin: 0 auto;
+}
+
+.menu ul{
+	float: left;
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li{
+	float: left;
+	width: 19.8%;
+	display: block;
+	/*background: gray;*/
+	height: 100%;
+}
+.menu ul li a{
+	font-family: "Courier New", Courier, monospace;
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: yellow;*/
+
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu ul li.active a{
+	/*color: yellow;*/
+}
+
+
+
+
+
+
+
+
+
+
+.khungngoai .khung4{
+	width: 40%;
+	height: 40px;
+	/*background: gray;*/
+	margin: 0 auto;
+}
+.khungngoai .khung4 .boxanh1{
+	float: left;
+	margin-left: 4rem;
+	width: 8%;
+	height: 100%;
+	background: purple;
+	box-shadow: 2px 2px black;
+
+
+}
+.khungngoai .khung4 .boxanh1 img{
+	margin-left: 5px;
+	margin-top: 1px;
+}
+
+
+
+
+
+
+.khungngoai .khung5{
+	margin-top: 3rem;
+	width: 100%;
+	height: 50px;
+	background: #11144b;
+}
+.khungngoai .khung5 .boxchu1{
+	margin: 0 auto;
+	width: 30%;
+	height: 80%;
+	/*background: red;*/
+	padding-top: 5px;
+	
+}
+.khungngoai .khung5 .boxchu1 p{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 14px;
+}
