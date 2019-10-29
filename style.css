@@ -262,6 +262,7 @@
 .link a.lienket1:hover{
 	background: gray;
 }
+/*Hoàng Thiện*/
 .box3{
 	margin:0 auto;
 	width: 85%;
@@ -330,7 +331,7 @@
 .content ul li{
 	width: 19%;
 	height: 100%;
-	background-image: linear-gradient(-80deg, #A708FA, #F80BDF);
+	background-image: linear-gradient(-80deg, #1e1b6a, #cb1d62);
 	float: left;
 	margin-left: 35px;
 	display: block;
@@ -418,7 +419,7 @@
 	height: 500px;
 	width: 85%;
 	margin: 0 auto;
-	background: rgb(220,220,220);
+	/*background: rgb(220,220,220);*/
 
 }
 .title{
@@ -480,8 +481,8 @@
     padding-top: 0.1px;
 }
 .stt{
-	height: 30px;
-	width: 182px;
+	height: 80px;
+	width: 55px;
     -webkit-transform: rotate(45deg);
   }
 .stt p{
